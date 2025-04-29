@@ -1,0 +1,75 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="blog-post-card">
+        <img class="post-img" src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg" alt="title-image" text="Title Image">
+            <div class="post-content">
+            <h2 class="post-title">How to 0-Cycle</h2>
+            <p class="post-excerpt">Learn how to 0-cycle the lastest MoC 12 content in <strong>Honkai Star Rail</strong>.</p>
+            <a class="read-more" href="https://www.youtube.com/watch?v=XPGF7qWl89o&ab_channel=GuobaCertified" target="_blank">Read More</a>
+            </div>
+    </div>
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+  font-family: arial;
+}
+
+.blog-post-card{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+  background-color: white;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #7a7a7a;
+
+}
+
+.post-img{
+  border-bottom: 2px solid black;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-left-right: 10px;
+}
+
+.post-content{
+  padding: 10px;
+}
+
+.read-more{
+  background-color: #404040;
+  border-radius: 6px;
+  padding:10px 15px 10px 15px;
+  margin: 10px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+.read-more:hover{
+  background-color: #787878;
+}
+
+.post-title,.post-excerpt{
+  margin:10px;
+  color: #242424;
+}
+
+** end of undefined **
+
